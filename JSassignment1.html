@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <h1>Assignment 1 </h1>
+        <body>
+            <p id="day"></p>
+            <p id="time"></p>
+            <script>
+                
+                      var d= new Date("07-14-2020");
+                      var day =new Array(7);
+                      day[0] = "Sunday";
+                      day[1] = "Monday";
+                      day[2] = "Tuesday";
+                      day[3] = "Wednesday";
+                      day[4] = "Thursday";
+                      day[5] = "Friday";
+                      day[6] = "Saturday";
+
+                      var n="Today is:- "+day[d.getDay()];
+                      document.getElementById("day").innerHTML=n;
+
+                    
+            </script>
+        </body>
+    </head>
+</html>
